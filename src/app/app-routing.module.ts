@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'datos-personales',
+    loadChildren: () => import('./datos-personales/datos-personales.module').then( m => m.DatosPersonalesPageModule)
+  },
+  {
+    path: 'objetivo',
+    loadChildren: () => import('./objetivo/objetivo.module').then( m => m.ObjetivoPageModule)
+  },
+  {
+    path: 'formacion-academica',
+    loadChildren: () => import('./formacion-academica/formacion-academica.module').then( m => m.FormacionAcademicaPageModule)
+  },
+  {
+    path: 'conocimiento',
+    loadChildren: () => import('./conocimiento/conocimiento.module').then( m => m.ConocimientoPageModule)
+  },
 ];
 
 @NgModule({

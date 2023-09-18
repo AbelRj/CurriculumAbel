@@ -1,27 +1,24 @@
-#container {
+img{
+  width: 150px;
+}
+.contenedor-p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  
+}
+h1{
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.subtitulo{
+  margin: auto;
+  font-size: 18px;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.redessociales{
+text-align: center;
 }
-
-#container a {
-  text-decoration: none;
+.redessociales ion-button{
+  width: 150px;
 }
